@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hay mau jadi pacar aku gak??</h1>
+    <button id="btn_mau" onclick="alert('I LOVE U')">Mau</button>"
+    <button id="btn_tidak" onclick="tidak(this)" style='position:absolute'>Tidak</button>
+   <h2>kalau udah screenshot yaa</h2>
+    <script>
+        document.body.style.backgroundColor = "blue";
+    </script>
+    <script>
+        function tidak(id){
+            var mau =document.getElementById('btn_mau');
+            var i = Math.floor(Math.random()*300)+1;
+            var j = Math.floor(Math.random()*100)+mau.offsetTop;
+            id.style.left = i+'px';
+            id.style.top = j+'px';
+        }
+        </script>
+    <audio autoplay src='/sumo.mp3.mp3' loop></audio>
+</body>
+</html>
