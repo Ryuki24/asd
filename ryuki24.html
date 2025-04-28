@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Kenal Gw Lebih Jauh</h1>
+    <button id="btn_pencet" onclick="pencet()">Kenal Gw</button>
+    <button onclick="alert('Agil_tzy');">Tiktok</button>
+    <button id="btn_epep" onclick="pencet2(this)">Nama FreeFire</button>
+    <h2>Mau Donate? Pencet ini</h2>
+    <h3 style="position: relative; left: 130px;">\/</h3>
+    <a href="https://sociabuzz.com/ryuki24" target="_blank" style="position: relative; right: 490.5px; display: block; margin-top: 20px; text-align: center; font-size: 18px; text-decoration: none; color: blue;">Link Donate</a>
+</body>
+<script>
+function pencet() {
+    document.body.innerHTML = `
+        <h1 style="transform: scale(1); transition: transform 0.5s; position: relative; left: 3px;">Nama: Agil</h1>
+        <h2 style="transform: scale(1); transition: transform 0.5s; position: relative; left: 2px;">Kelebihan: Mengerti Pelajaran INF</h2>
+        <h3 style="transform: scale(1.2); transition: transform 0.5s; position: relative; left: 130px;">Kelas: VII</h3>
+        <h4 style="transform: scale(1.4); transition: transform 0.5s; position: relative; left: 250.5px;">Hobi: Ngoding</h4>
+        <button transform: scale=(1.4); onclick="backToBeginning(this)">Back</button>
+        <img src="https://i.gifer.com/1UEn.gif" style="display: block; margin: 20px auto; transform: scale(1); transition: transform 0.5s;">
+    `;
+}
+function pencet2() {
+    document.body.innerHTML = `
+        <h1 style="transform: scale(1); transition: transform 0.5s; position: relative; left: 3px;">Nama: Agil_Ryuki</h1>
+        <h2 style="transform: scale(1); transition: transform 0.5s; position: relative; left: 2px;">Level:50an</h2>
+        <h3 style="transform: scale(1.2); transition: transform 0.5s; position: relative; left: 130px;">Ranked: Diamond</h3>
+        <button transform: scale=(1.2); onclick="backToBeginning(this)">Back</button>
+        <img src="https://i.gifer.com/1UEn.gif" style="display: block; margin: 20px auto; transform: scale(1); transition: transform 0.5s;">
+    `;
+}
+function backToBeginning() {
+    document.body.innerHTML = `
+        <h1>Kenal Gw Lebih Jauh</h1>
+        <button id="btn_pencet" onclick="pencet()">Kenal Gw</button>
+        <button onclick="alert('Agil_tzy');">Tiktok</button>
+        <button id="btn_epep" onclick="pencet2(this)">Nama FreeFire</button>
+        <h2>Mau Donate? Pencet ini</h2>
+        <h3 style="position: relative; left: 130px;">\/</h3>
+        <a href="https://sociabuzz.com/ryuki24" target="_blank" style="position: relative; right: 370px; display: block; margin-top: 20px; text-align: center; font-size: 18px; text-decoration: none; color: blue;">Link Donate</a>
+    `;
+}
+</script>
+</html>
